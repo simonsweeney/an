@@ -1,0 +1,39 @@
+.set  {
+	width:75%;
+	margin:auto;
+	margin-top: 30px;
+
+	.setList {
+		display: block; 
+		overflow: hidden;
+		margin-left: -4%;
+	}
+
+	.setList li{
+		background:red;
+		display: block; 
+		height: auto; 
+		float: left; 
+
+		width: 46%; 
+		margin-left: 4%; 
+		margin-bottom: 4%;
+
+		height:400px;
+
+		
+		/*
+		&:nth-child(even) {
+			margin-top:50px;
+		}
+		&:nth-child(odd) {
+			margin-top:-50px;
+		}
+		*/
+
+		img {
+		
+		}
+	}	
+}
+

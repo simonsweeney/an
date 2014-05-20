@@ -22,10 +22,30 @@
  * ---------------------------------------------------------------------------
  */
 
-.header-primary {}
 
-.nav-primary {}
+
+.nav-primary,.nav-secondary {
+	position:fixed;
+	a {
+		color: black;
+		font-weight: bold;
+	}
+}
+
+.nav-primary {
+	top:10%;
+	left:10%;
+}
+
+.nav-secondary {
+	bottom:10%;
+	right:10%;
+	text-align:right;
+}
 
 .content-primary {}
 
-.footer-primary {}
+img {
+	max-width: 100%; 
+	height: auto; 
+}
