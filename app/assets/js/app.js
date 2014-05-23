@@ -1,9 +1,8 @@
 $(document).ready(function() {
     $("#set").delay(1500).fadeIn(800);
-    $("#set").delay(1500).fadeIn(800);
     $(".category").delay(900).fadeOut(800);
     $("#project_title").delay(500).fadeIn(800);
-
+    $(".index").delay(1500).fadeIn(800);
 });
 
 
