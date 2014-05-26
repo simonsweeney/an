@@ -3,7 +3,12 @@ $(document).ready(function() {
     $(".category").delay(900).fadeOut(800);
     $("#project_title").delay(500).fadeIn(800);
     $(".index").delay(1500).fadeIn(800);
+
+
+
+
 });
+
 
 
 $(function() {                      
@@ -38,6 +43,5 @@ $(function() {
     $("#setTitle3").toggleClass("hover"); 
   });
 });
-
 
 

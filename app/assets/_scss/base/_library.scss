@@ -3,94 +3,54 @@
 
 
 
-.feed-f {
-	position:absolute;
-	z-index:20;
-	height:100%;
-	width: 50%; 
-	top:3%;
-	left:8%;
+
+
+
+.feed-f, .feed-d, .feed-b {
+	position: absolute;
 }
 
-
+.feed-f {
+	z-index:20;
+}
 .feed-d {
-	position:absolute;
 	z-index:30;
-	height:100%;
-	width: 46%; 
-	top:10%;
-	right:5%;
 }
 .feed-b{
-	position:absolute;
 	z-index:10;
-	height:100%;
-	width: 60%; 
-	top:55%;
+}
+
+
+#f1 {
+	position: fixed;
+	height:200px;
+	width:200px;
+	background-color: white;
+	left:30%;
+	top:80%	
+}
+
+#d1 {
+	position: fixed;
+	height:200px;
+	width:200px;
+	background-color: black;
 	left:10%;
+	top:80%
 }
-
-.fList li {
-	display: block; 
-	height: auto; 
-
-	margin-bottom:900px;
-
-	height:700px;
-
-	&:last-child {
-		margin-bottom:50px;
-	}		
-}
-
-.dList li {
-	display: block; 
-
-	width: 80%; 
-	margin-bottom:200px;
-
-	height:400px;
-
-	&:nth-child(even) {
-		height:550px;
-	}
-
-	&:last-child {
-		margin-bottom:50px;
-	}		
-}
-
-.bList li {
-	display: block; 
-
-	margin-bottom:800px;
-
-	height:150px;
-
-	&:nth-child(even) {
-		height:250px;
-	}
-
-	&:last-child {
-		margin-bottom:50px;
-	}		
-}
-
-
-
-
 
 
 .category{
 	position:fixed;
-	color:black;
+	color:$black;
 	width:60%;
 	left:20%;
-	top:47%;
+	top:48%;
 	text-align:center;
-	font-size: 60px;
+	font-size: $text-large;
 	font-weight:bold;
 	z-index:50;
+	letter-spacing: -3px;
 }
 
 
@@ -136,15 +96,16 @@
 
 .title {
 	position:fixed;
-	color:black;
+	color:$black;
 	width:60%;
 	left:20%;
-	top:47%;
+	top:48%;
 	text-align:center;
-	font-size: 60px;
+	font-size: $text-large;
 	font-weight:bold;
 	z-index:50;
 	opacity: 0;
+	letter-spacing: -3px;
 	@include easing;
 
 	&.hover {
@@ -163,8 +124,10 @@ section {
 		width:60%;
 		margin-left:20%;
 		text-align:center;
-		top:44%;
-		font-size:60px;
+		top:42%;
+		color:$black;
+		letter-spacing: -3px;
+		font-size:$text-large;
 	}
 }
 

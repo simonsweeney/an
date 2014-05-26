@@ -14,6 +14,35 @@
     <!-- build:js({app,.tmp}) /assets/js/modernizr.js -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+
+    <script type="text/javascript" src="//use.typekit.net/tmf8ygo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+    <script>
+<!--
+function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (0 <= currentTime&&currentTime < 9) {
+       document.write("<link rel='stylesheet' href='/assets/css/night.css' type='text/css'>");
+      }
+
+      if (9 <= currentTime&&currentTime < 23) {
+       document.write("<link rel='stylesheet' href='/assets/css/day.css' type='text/css'>");
+      }
+
+      if (23 <= currentTime&&currentTime <= 24) {
+       document.write("<link rel='stylesheet' href='/assets/css/night.css' type='text/css'>");
+      }
+}
+
+getStylesheet();
+-->
+</script>
+
+<noscript><link href="main.css" rel="stylesheet"></noscript>
+
+
   </head>
 
   <body>
@@ -23,7 +52,7 @@
 
     <div class="about">
       <div class="core">
-        <p><strong>20 year old Irish photographer.</strong><br /><br />
+        <p><strong>21 year old Irish photographer.</strong><br /><br />
         <strong>Clients:</strong><br />
         Dazed & Confused, American Apparel, Thread Magazine, USED Magazine, NCAD, Danielle Romerill for Absolut, Jessica Mort, High Girl, Cromane. 
         <br /><br />
@@ -42,7 +71,7 @@
     <nav id="nav-primary" class="nav-primary">
       <ul class="{% if page.title == "Andrew Nuding" %}index{% endif %}">
         <li><a href="/">Andrew Nuding</a></li>
-        <li><a href="#" class="show">About</a></li>
+        <li><a class="show">About</a></li>
         <li><a href="">Blog</a></li>
       </ul>
     </nav>

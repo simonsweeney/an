@@ -8,8 +8,8 @@ $header-font-family: $base-font-family;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
-$base-font-size: 1em;
-$base-line-height: $base-font-size * 1.5;
+$base-font-size: 16px;
+$base-line-height: $base-font-size * 1.15;
 $base-border-radius: em(3);
 
 // Colors
@@ -44,3 +44,8 @@ $base-border-color: $light-gray;
 $error-color: $light-red;
 $notice-color: $light-yellow;
 $success-color: $light-green;
+
+
+
+
+$text-large: 80px;
