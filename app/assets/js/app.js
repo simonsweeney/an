@@ -3,13 +3,19 @@ $(document).ready(function() {
     $(".category").delay(900).fadeOut(800);
     $("#project_title").delay(500).fadeIn(800);
     $(".index").delay(1500).fadeIn(800);
-
+    $(".indexFeedOne").delay(1700).fadeIn(800);
+    $(".indexFeedTwo").delay(1500).fadeIn(800);
+    $(".indexFeedThree").delay(1900).fadeIn(800);
 
 
 
 });
 
-
+$.stellar({
+  horizontalScrolling: false,
+  verticalOffset: 0,
+  responsive: false
+});
 
 $(function() {                      
   $(".show").click(function() {  

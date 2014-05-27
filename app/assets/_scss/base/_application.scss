@@ -37,7 +37,7 @@ html, body {
 	}
 }
 
-.index {
+.index, .indexFeedOne, .indexFeedTwo, .indexFeedThree {
 	display: none;
 }
 .nav-primary {
@@ -135,58 +135,6 @@ img {
 
 
 
-body
-{
-    margin: 0px;
-    padding: 0px;
-    height: 1400px;
-    background-image: url('../images/background.jpg');   
-    background-attachment: fixed;
-}
 
-
-
-#description
-{
-    position: fixed;
-    width: 100px;
-    height:100px;
-    z-index: 2;
-}
-#main-img
-{
-    position: fixed;
-    right: 100px;
-        width: 100px;
-
-    height:100px;
-    z-index: 3;
-}
-#icons-back
-{
-    position: fixed;
-    z-index: 1;
-        width: 400px;
-
-    height:100px;
-}
-#icons-mid
-{
-    position: fixed;
-    left: 150px;
-    z-index: 4;
-        width: 400px;
-
-    height:100px;
-}
-#icons-front
-{
-    position: fixed;
-    z-index: 10;
-        width: 400px;
-
-        height:100px;
-
-}
 
 
