@@ -27,11 +27,11 @@ function getStylesheet() {
        document.write("<link rel='stylesheet' href='/assets/css/night.css' type='text/css'>");
       }
 
-      if (9 <= currentTime&&currentTime < 23) {
+      if (9 <= currentTime&&currentTime < 21) {
        document.write("<link rel='stylesheet' href='/assets/css/day.css' type='text/css'>");
       }
 
-      if (23 <= currentTime&&currentTime <= 24) {
+      if (21 <= currentTime&&currentTime <= 24) {
        document.write("<link rel='stylesheet' href='/assets/css/night.css' type='text/css'>");
       }
 }
@@ -66,7 +66,7 @@ getStylesheet();
         </ul>
       </div>
     </div>
-    
+    <div class="aboutHide"></div>
     
     <nav id="nav-primary" class="nav-primary">
       <ul class="{% if page.title == "Andrew Nuding" %}index{% endif %}">
@@ -78,9 +78,9 @@ getStylesheet();
 
     <nav id="nav-secondary" class="nav-secondary">
       <ul class="{% if page.title == "Andrew Nuding" %}index{% endif %}">
-        <li><a href="/set">Diary</a></li>
-        <li><a href="/set">Fashion</a></li>
-        <li><a href="/set">Moving Image</a></li>
+        <li><a href="/diary">Diary</a></li>
+        <li><a href="/fashion">Fashion</a></li>
+        <li><a href="/moving-image">Moving Image</a></li>
       </ul>
     </nav>
 

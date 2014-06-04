@@ -1,0 +1,17 @@
+body {
+	background:black!important;
+}
+
+
+.nav-primary a,.nav-secondary a {
+	color: white;
+}
+
+.nav-primary a:hover,.nav-secondary a:hover {
+	color: #B2F0D1;
+}
+
+.about {
+	background: white;
+	color: black;
+}

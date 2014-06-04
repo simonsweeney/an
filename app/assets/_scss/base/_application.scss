@@ -34,6 +34,10 @@ html, body {
 		color: $black;
 		font-weight: bold;
 		@include easing;
+		
+		&:hover {
+			color: #B2F0D1;
+		}
 	}
 }
 
@@ -41,13 +45,13 @@ html, body {
 	display: none;
 }
 .nav-primary {
-	top:80px;
-	left:7%;
+	top:60px;
+	left:5%;
 	&.active {
 		a {
 			color:$white;
 			&:hover {
-				color:$black;
+				color:#B2F0D1;
 			}
 		}
 		z-index: 100;
@@ -59,8 +63,8 @@ html, body {
 }
 
 .nav-secondary {
-	bottom:10%;
-	right:7%;
+	bottom:8%;
+	right:5%;
 	text-align:right;
 }
 
@@ -77,17 +81,29 @@ html, body {
 	@include menu-transition;
 
 	color: white;
+	a {
+		color:white;
+	}
+	a:hover {
+		color: #B2F0D1;
+	}
 
 	.core {
 		width:50%;
 		margin-left: 25%;
-		margin-top:80px;
+		margin-top:60px;
 
 		p{
 			width:90%;
 		}
 	}
 
+.aboutHide {
+	position: fixed;
+	height:100%;
+	width:100%;
+	background: red;
+}
 
 	.secondary {
 		position:absolute;
